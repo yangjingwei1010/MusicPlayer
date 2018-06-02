@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     super.viewDidLoad()
     
   }
-  
+  //懒加载
   lazy var recorder: AVAudioRecorder? = {
     let url = NSURL(string: "/Users/yangjingwei/Desktop/test.caf")
     let config: [String: AnyObject] = [
