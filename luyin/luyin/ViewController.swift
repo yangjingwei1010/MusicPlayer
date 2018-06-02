@@ -37,6 +37,7 @@ class ViewController: UIViewController {
     }
   }()
   
+  
   override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
     
     recorder?.record(atTime: (recorder?.deviceCurrentTime)! + 2, forDuration: 3)
