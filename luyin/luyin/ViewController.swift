@@ -26,6 +26,7 @@ class ViewController: UIViewController {
       AVNumberOfChannelsKey: NSNumber(value: 2),
       // 录音质量
       AVEncoderAudioQualityKey: NSNumber(value: Int32(AVAudioQuality.min.rawValue))
+      
     ]
     do{
       let recorder = try AVAudioRecorder(url: url! as URL, settings: config)
